@@ -10,10 +10,10 @@ TECHNICAL SUMMARY
 
 I will make use of the following packages/data/languages
 
-1.Python
-2.SQLite3
-3.Pandas
-4.Plotly
+1.Python  
+2.SQLite3  
+3.Pandas  
+4.Plotly  
 5.The CSV "MotorcycleData" contained in this repo. 
 
 FEATURES
