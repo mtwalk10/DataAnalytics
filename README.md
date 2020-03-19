@@ -31,6 +31,6 @@ MILESTONES
 
 REQUIREMENTS
 
-SQLite3
-Plot.ly
-Pandas
+SQLite3  
+Plotly  
+Pandas  
