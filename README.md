@@ -18,7 +18,7 @@ I will make use of the following packages/data/languages
 
 FEATURES
 
-This project will include data aggregation using pandas and SQLite3 and presentationusing plotly. I will include pie charts and bar graphs using plotly in order to iluststrate the data. I will also include summarizations of the data presented with emphasis on how this data might be used to benefit a potential autosales client. 
+This project will include data aggregation using pandas and SQLite3 and presentation using plotly. I will include pie charts and bar graphs using plotly in order to iluststrate the data. I will also include summarizations of the data presented with emphasis on how this data might be used to benefit a potential autosales client. 
 
 MILESTONES
 
