@@ -54,3 +54,23 @@ FROM Sales
 GROUP BY Make;
 """
 make_query(query)
+
+
+# - Basic Data Manipulation - Total Sales By Make
+query = """
+SELECT '$' || SUM(CAST(REPLACE(REPLACE(Price, '$',''), ',','') AS int)) AS "Total Sales by Make", Make
+FROM Sales
+GROUP BY Make
+"""
+make_query(query)
+
+
+# - Basic Data Manipulation - Average Sales By Make
+query = """
+SELECT '$' || ROUND(AVG(CAST(REPLACE(REPLACE(Price, '$',''), ',','') AS int)), 2) AS "Average Price by Make", Make
+FROM Sales
+GROUP BY Make
+"""
+make_query(query)
+
+
